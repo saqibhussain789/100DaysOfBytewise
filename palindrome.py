@@ -1,6 +1,6 @@
-# Check for Palindrome
-string = input("Enter a string: ")
-if string == string[::-1]:
-    print(f"{string} is a palindrome")
+# Palindrome Checker (Word)
+word = input("Enter a word: ")
+if word == word[::-1]:
+    print(word, "is a palindrome.")
 else:
-    print(f"{string} is not a palindrome")
+    print(word, "is not a palindrome.")
